@@ -6,7 +6,7 @@ Contentrium Storyboard Support · Windows
 
 ## 다운로드
 
-[최신 설치 파일 받기](https://github.com/contentriumkorea/scene-board-releases/releases/latest)
+[최신 설치 파일 받기](https://github.com/contentriumkorea/scene-board/releases/latest)
 
 - 처음 사용한다면 `SceneBoard-버전-Windows-Installer.zip`을 압축 해제한 뒤 `SceneBoard-Setup.exe`를 실행하세요. `Windows-Setup.exe`를 직접 받아 실행해도 됩니다.
 - Windows x64용이며 현재 Windows 사용자에게 설치됩니다.
