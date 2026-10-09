@@ -1,45 +1,45 @@
-# CONTENTRIUM BOARD
+# SCENE BOARD
 
-Contentrium Storyboard Support · Windows
+Scene Board · Windows
 
-이미지와 장면 설명, 대사·자막·나레이션을 자유 캔버스에 정리하고 스토리보드 PDF로 내보내는 Windows 앱입니다.
+Organize images, scene descriptions, dialogue, subtitles, and narration on a freeform canvas, then export your storyboard as a PDF.
 
-## 다운로드
+## Download
 
-[최신 설치 파일 받기](https://github.com/contentriumkorea/scene-board/releases/latest)
+[Get the latest installer](https://github.com/contentriumkorea/scene-board/releases/latest)
 
-- 처음 사용한다면 `SceneBoard-버전-Windows-Installer.zip`을 압축 해제한 뒤 `SceneBoard-Setup.exe`를 실행하세요. `Windows-Setup.exe`를 직접 받아 실행해도 됩니다.
-- Windows x64용이며 현재 Windows 사용자에게 설치됩니다.
-- 현재 설치 파일은 Windows 코드 서명이 없어 확인되지 않은 게시자 경고가 나타날 수 있습니다.
-- `latest.yml`과 `.blockmap`은 자동 업데이트용 파일입니다. 따로 실행하지 마세요.
+- For a first-time installation, extract `SceneBoard-version-Windows-Installer.zip` and run `SceneBoard-Setup.exe`. You can also download and run `Windows-Setup.exe` directly.
+- Supports Windows x64 and installs for the current Windows user.
+- The installer is not code-signed, so Windows may show an unknown publisher warning.
+- `latest.yml` and `.blockmap` are used for automatic updates. Do not run them separately.
 
-## 앱 업데이트
+## Updating the app
 
-설치형 앱 상단 **업데이트 확인** → **업데이트 다운로드** → **저장 후 업데이트·재시작** 순서로 진행합니다. 1.7.0을 사용 중이라면 기존 오른쪽 아래 업데이트 버튼에서 새 버전을 받으세요. 시작할 때도 새 버전을 확인하지만 다운로드와 설치는 사용자가 선택합니다.
+In the installed app, select **Check for updates** → **Download update** → **Save, update, and restart**. If you use version 1.7.0, use the existing update button at the bottom right to get a newer version. The app also checks for updates at startup, but you choose whether to download and install them.
 
-저장을 취소하거나 저장에 실패하면 설치를 진행하지 않습니다. 업데이트 후 프로젝트 `.storyboard`, 푸티지 폴더와 기존 자동 복구 경로를 유지합니다. 업데이트를 받으려면 인터넷이 필요하며 평소 편집 작업은 오프라인으로 사용할 수 있습니다.
+If you cancel the save or it fails, installation does not continue. Updates preserve your `.storyboard` projects, footage folders, and existing autosave paths. An internet connection is required to download updates; ordinary editing works offline.
 
-**포터블 사용자는 설치형으로 한 번 전환해야 앱 내 업데이트가 가능합니다.** 포터블 EXE/ZIP은 별도 실행용이며 앱 자동 업데이트를 지원하지 않습니다.
+**Portable users must switch to the installer once to receive in-app updates.** The portable EXE and ZIP run separately and do not support automatic app updates.
 
-## 주요 기능
+## Features
 
-- 블랙 자유 캔버스, 씬 추가·이동·크기 조절·스냅
-- 빈 곳 드래그로 다중 선택, Shift로 추가 선택, Space+드래그로 화면 이동
-- 짧은 그룹 이름 입력칸과 상단 업데이트 확인 버튼
-- 1.7.3부터 버전별 변경사항 목록, 다운로드 후 계속 작업, 설치 직전 최종 동의(기본: 나중에)
-- 새 목록과 최종 동의는 1.7.3 설치 후부터 적용됩니다.
-- 이미지 노드마다 헤더·테두리 색 변경 및 기본색 복원 (1.7.2 TEST)
-- 노드 색 저장·복제·실행 취소 지원, 이미지 원본 유지
-- 이미지, 장면 설명, 대사·자막·나레이션 입력줄
-- 스티커 Note, 중첩 그룹 이름 유지, 그룹 프롬프트, 그룹 연결선
-- 저장 시 이미지 사본을 프로젝트의 푸티지 폴더에 보관
-- 이미지·장면 설명·자막·대사·나레이션을 표 형태 PDF로 출력
-- 16:9 / 4:3 / 3:4 / 9:16 / 1:1 비율 지원
+- Black freeform canvas with scenes you can add, move, resize, and snap
+- Drag on empty space to select multiple items, Shift to add to the selection, and Space+drag to pan
+- Short group-name field and a Check for updates button at the top
+- Since 1.7.3: release notes by version, the ability to keep working after a download, and final confirmation before installation (default: Later)
+- The new release-notes list and final confirmation are available after installing 1.7.3
+- Change image-node header and border colors, and restore defaults (1.7.2 TEST)
+- Save, duplicate, and undo node colors while preserving the original image
+- Input rows for images, scene descriptions, dialogue, subtitles, and narration
+- Note stickers, persistent nested-group names, group prompts, and group connections
+- Save copies of images in the project footage folder
+- Export images, scene descriptions, subtitles, dialogue, and narration to a tabular PDF
+- Support for 16:9, 4:3, 3:4, 9:16, and 1:1 aspect ratios
 
-## 배포와 개인정보
+## Distribution and privacy
 
-이 저장소는 설치 파일·업데이트 정보·사용 안내만 배포합니다. 개발 소스와 사용자 프로젝트·이미지는 포함하지 않습니다. 앱의 업데이트 확인·다운로드는 GitHub로 연결되며, 사용자 작업 파일을 업데이트 서버에 올리지 않습니다.
+This repository distributes installers, update metadata, and usage instructions. It does not include development source code, user projects, or images. The app connects to GitHub to check for and download updates; it does not upload your working files to an update server.
 
-업데이트 다운로드는 HTTPS와 SHA-512 메타데이터 검증을 사용합니다. 파일 해시 검사는 Windows 게시자 코드 서명을 대신하지 않습니다.
+Update downloads use HTTPS and SHA-512 metadata verification. A file hash check does not replace Windows publisher code signing.
 
-새 버전은 이 저장소의 정식 GitHub Release로 게시됩니다. 소스만 수정하거나 GitHub에 커밋하는 것만으로 사용자의 앱 버전이 바뀌지는 않습니다. 더 높은 버전의 설치 파일과 해당 `latest.yml`, `.blockmap`을 함께 게시해야 앱에서 업데이트를 찾을 수 있습니다.
+New versions are published as official GitHub Releases in this repository. Editing the source or committing to GitHub alone does not update an installed app. To make an update available in the app, publish a higher-version installer together with its matching `latest.yml` and `.blockmap`.
