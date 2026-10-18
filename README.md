@@ -1,12 +1,16 @@
-# SCENE BOARD
+# SceneAtlas
 
-Scene Board · Windows
+![SceneAtlas 커버](docs/sceneatlas-cover.svg)
 
-Organize images, scene descriptions, dialogue, subtitles, and narration on a freeform canvas, then export your storyboard as a PDF.
+장면 이미지와 설명, 대사·자막·나레이션을 자유 캔버스에 정리하고 PDF로 내보내는 Windows 스토리보드 앱입니다. 기존 Scene Board의 새 표시 이름이며 `.storyboard` 프로젝트는 그대로 열립니다.
+
+**[설치형 다운로드](https://github.com/contentriumkorea/scene-board/releases/latest/download/SceneBoard-1.7.7-Windows-Setup.exe)** · **[포터블 다운로드](https://github.com/contentriumkorea/scene-board/releases/latest/download/SceneBoard-1.7.7-Windows.zip)**
+
+설치 파일과 실행 파일에는 기존 업데이트 호환성을 위해 SceneBoard·CONTENTRIUM BOARD 이름이 남아 있습니다.
 
 ## Download
 
-[Get the latest installer](https://github.com/contentriumkorea/scene-board/releases/latest)
+[전체 릴리스 보기](https://github.com/contentriumkorea/scene-board/releases/latest)
 
 - For a first-time installation, extract `SceneBoard-version-Windows-Installer.zip` and run `SceneBoard-Setup.exe`. You can also download and run `Windows-Setup.exe` directly.
 - Supports Windows x64 and installs for the current Windows user.
@@ -43,3 +47,5 @@ This repository distributes installers, update metadata, and usage instructions.
 Update downloads use HTTPS and SHA-512 metadata verification. A file hash check does not replace Windows publisher code signing.
 
 New versions are published as official GitHub Releases in this repository. Editing the source or committing to GitHub alone does not update an installed app. To make an update available in the app, publish a higher-version installer together with its matching `latest.yml` and `.blockmap`.
+
+[![CONTENTRIUM 홈페이지](https://img.shields.io/badge/CONTENTRIUM-홈페이지-181818?style=for-the-badge)](https://contentrium.com/)
