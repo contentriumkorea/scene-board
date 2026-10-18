@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="SceneAtlas storyboard cards on a canvas">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101c24"/><stop offset="1" stop-color="#17131f"/></linearGradient></defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <path d="M760 68h142v114H760zM922 118h160v121H922zM818 199h120v69H818z" fill="#253643" stroke="#83b3cf" stroke-width="2"/>
+  <path d="M780 143l38-31 30 21 29-41v68h-97zM942 197l46-49 34 23 38-38v84H942z" fill="#4d7690"/>
+  <path d="M902 125h20M856 182v17" stroke="#e5b987" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="70" y="86" fill="#a8c7db" font-family="Arial, sans-serif" font-size="16" letter-spacing="5">CONTENTRIUM  /  STORYBOARD CANVAS</text>
+  <text x="64" y="182" fill="#f4f5f7" font-family="Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">SceneAtlas</text>
+  <text x="70" y="229" fill="#b8c5cc" font-family="Arial, sans-serif" font-size="23">Every frame has a place.</text>
+</svg>
